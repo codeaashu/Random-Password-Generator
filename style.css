@@ -1,0 +1,143 @@
+/* ===( CODE AASHU )=== */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191f22;
+}
+
+.container{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .title {
+    color: #fff;
+    font-size: 1.3rem;
+    word-spacing: 3px;
+}
+
+.container .title span{
+    color: #019f55;
+    display: flex;
+    margin-right: 6rem;
+    margin-top: 10px;
+    font-size: 2.3rem;
+    line-height: 5vh;
+    border-bottom: 4px solid #019f55;
+}
+
+.container .password-panel{
+    width: 90%;
+    height: 6vh;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin:5% 10% 5% 0;
+}
+
+.container .password-panel input{
+    width:85%;
+    height: 6vh;
+    background-color: transparent ;
+    border: none;
+    outline: none;
+    padding: 5px ;
+    font-size: 1.5rem;
+}
+
+.container .password-panel button{
+    width: 15%;
+    border: none;
+    margin-top: 2px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.container .password-panel button img{
+    width: 30px;
+    height: 40px;
+}
+
+.container .password-panel button img:active{
+    scale: 0.9;
+}
+
+
+.container #message-box{
+    scale: 0;
+}
+
+
+.container #message-box img{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-top: -35px;
+    margin-right: 60%;
+    transform: rotate(-5deg);
+    width: 100px;
+    height: 70px;
+    filter:drop-shadow( 5px 5px 100px #000, -5px -5px 100px #000);
+}
+
+.container #message-box p{
+    position: absolute;
+    margin-right: 65%;
+    right: 0;
+    margin-top: -10px;
+    display: flex;
+    color: #fff;
+}
+
+.container .btn{
+    width: 50%;
+    height: 5vh;
+}
+
+.container .btn button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #019f55;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+@media (max-width :460px) {
+    .container .btn button{
+        font-size: 0.9rem;
+        margin-right: -20px;
+    }
+
+    .container .btn button i{
+        font-size: 1rem;
+        left: 0;
+        margin-right: 1px;
+    }
+    
+}
+
+.container .btn button:active{
+    scale: 0.98;
+}
+
+
+.container .btn button i{
+    position: absolute;
+    left: 5px;
+    font-size: 1.5rem;
+    margin:-3px 0 0 0 ;
+}
